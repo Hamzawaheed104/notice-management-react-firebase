@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddNotice renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="flex justify-center items-center min-h-screen bg-gray-100"
+  >
+    <div
+      class="p-8 bg-white shadow-lg rounded-lg max-w-md w-full"
+    >
+      <h2
+        class="text-2xl font-bold mb-6 text-center"
+      >
+        Add a New Notice
+      </h2>
+      <form
+        class="space-y-6"
+      >
+        <input
+          class="form-input mt-1 block w-full border py-2 px-3 shadow rounded-lg"
+          placeholder="Title"
+          type="text"
+          value=""
+        />
+        <textarea
+          class="form-textarea mt-1 block w-full border py-2 px-3 shadow rounded-lg"
+          placeholder="Content"
+        />
+        <input
+          class="form-input mt-1 block w-full border py-2 px-3 shadow rounded-lg"
+          placeholder="Date"
+          type="date"
+          value=""
+        />
+        <div
+          class="flex justify-between"
+        >
+          <button
+            class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
+            type="submit"
+          >
+            Submit
+          </button>
+          <a
+            class="inline-block align-middle text-center select-none border font-bold whitespace-no-wrap py-2 px-4 rounded text-base leading-normal no-underline text-blue-100 bg-blue-500 hover:bg-blue-700"
+            href="/"
+          >
+            View Notices
+          </a>
+        </div>
+      </form>
+    </div>
+    <div
+      class="Toastify"
+    />
+  </div>
+</DocumentFragment>
+`;
